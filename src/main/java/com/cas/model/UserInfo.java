@@ -1,25 +1,19 @@
-package com.cas;
+package com.cas.model;
 
 /**
  * Created by wangliucheng on 2017/9/19 0019.
+ *用户信息这里我写了几个较为常用的字段，id，name，username，password，可以根据实际的情况自己增加
  */
 
+import com.cas.AuthorityInfo;
 import lombok.Data;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.HashSet;
 import java.util.Set;
-
-/**
- * 用户信息
- * @、这里我写了几个较为常用的字段，id，name，username，password，可以根据实际的情况自己增加
- * @author ChengLi
- *
- */
 @Data
 public class UserInfo implements UserDetails {
     private static final long serialVersionUID = -1041327031937199938L;
-
     /**
      * 用户ID
      */

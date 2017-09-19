@@ -2,8 +2,10 @@ package com.cas;
 
 /**
  * Created by wangliucheng on 2017/9/19 0019.
+ * 用于加载用户信息 实现UserDetailsService接口，或者实现AuthenticationUserDetailsService接口
  */
 
+import com.cas.model.UserInfo;
 import org.springframework.security.cas.authentication.CasAssertionAuthenticationToken;
 import org.springframework.security.core.userdetails.AuthenticationUserDetailsService;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -12,11 +14,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * 用于加载用户信息 实现UserDetailsService接口，或者实现AuthenticationUserDetailsService接口
- * @author ChengLi
- *
- */
 public class CustomUserDetailsService /*
     //实现UserDetailsService接口，实现loadUserByUsername方法
     implements UserDetailsService {
