@@ -1,4 +1,4 @@
-package com.cas;
+package com.cas.model;
 
 /**
  * Created by wangliucheng on 2017/9/19 0019.

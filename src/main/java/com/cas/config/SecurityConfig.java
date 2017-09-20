@@ -1,8 +1,9 @@
-package com.cas;
+package com.cas.config;
 
 /**
  * Created by wangliucheng on 2017/9/19 0019.
  */
+import com.cas.model.CasProperties;
 import org.jasig.cas.client.session.SingleSignOutFilter;
 import org.jasig.cas.client.validation.Cas20ServiceTicketValidator;
 import org.springframework.beans.factory.annotation.Autowired;
